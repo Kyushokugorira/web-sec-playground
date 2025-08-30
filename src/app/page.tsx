@@ -4,6 +4,11 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 const links = [
   {
+    href: "/reset-password",
+    label: "パスワードリセット",
+    info: "OTPによるパスワード再設定デモ",
+  },
+  {
     href: "/news",
     label: "ニュース",
     info: "Cookie超入門、SWR超入門、DB Seeding入門、XSS脆弱性",
