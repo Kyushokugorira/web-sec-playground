@@ -9,16 +9,6 @@ const links = [
     info: "OTPによるパスワード再設定デモ",
   },
   {
-    href: "/news",
-    label: "ニュース",
-    info: "Cookie超入門、SWR超入門、DB Seeding入門、XSS脆弱性",
-  },
-  {
-    href: "/shop",
-    label: "ショップ",
-    info: "Cookie入門、SWR入門、zod入門",
-  },
-  {
     href: "/login",
     label: "ログイン",
     info: "セッションベース認証入門/トークンベース認証入門",
@@ -38,6 +28,7 @@ const links = [
     label: "公開プロフィールの確認・編集",
     info: "ログインが必要なコンテンツ",
   },
+    // Removed duplicate declaration of links array
 ];
 
 const Page: React.FC = () => {
